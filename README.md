@@ -60,7 +60,7 @@ public class SecurityConfig {
         return new InMemoryUserDetailsManager(user);
     }
 }
-###HelloController.java
+## HelloController.java
 @RestController
 public class HelloController {
 
@@ -74,3 +74,17 @@ public class HelloController {
         return "This is a secured endpoint. You are authenticated!";
     }
 }
+
+
+
+## Output
+
+<img width="1074" height="703" alt="1" src="https://github.com/user-attachments/assets/b974ce83-6aa0-4a29-8c98-de9dad8d2e71" />
+
+
+<img width="1086" height="885" alt="2" src="https://github.com/user-attachments/assets/714241bd-f2dd-4088-8f6f-b2ac9e35b0d3" />
+
+
+## Result
+
+Thus the Program has been executed successfully.
